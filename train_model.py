@@ -5,6 +5,14 @@ from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
+# list of models
+
+AI-Sweden-Models/roberta-large-1160k
+KB/bert-base-swedish-cased
+KBLab/megatron-bert-large-swedish-cased-165k	
+AI-Sweden-Models/bert-large-nordic-pile-1M-steps
+ltg/norbert3-large		
+
 # Load the BERT model and tokenizer
 model_name = 'KB/bert-base-swedish-cased'
 tokenizer = BertTokenizer.from_pretrained(model_name)
